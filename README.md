@@ -28,14 +28,14 @@
 </p>
 
 <p align="center">
-  <a href="#quick-start"><img src="assets/panel-v2-docker.png" width="32%" alt="Docker — Self-host with Compose" /></a>
-  <a href="https://discord.gg/mAswCyTxKr"><img src="assets/panel-v2-discord.png" width="32%" alt="Discord — Join the community" /></a>
-  <a href="https://docs.marshell.dev"><img src="assets/panel-v2-docs.png" width="32%" alt="Docs — docs.marshell.dev" /></a>
+  <a href="#quick-start"><img src="assets/panel-v3-docker.png" width="32%" alt="Docker — Self-host with Compose" /></a>
+  <a href="https://discord.gg/mAswCyTxKr"><img src="assets/panel-v3-discord.png" width="32%" alt="Discord — Join the community" /></a>
+  <a href="https://docs.marshell.dev"><img src="assets/panel-v3-docs.png" width="32%" alt="Docs — docs.marshell.dev" /></a>
 </p>
 <p align="center">
-  <a href="https://www.marshell.dev"><img src="assets/panel-v2-qr.png" width="32%" alt="Scan QR — Visit marshell.dev" /></a>
-  <a href="https://www.marshell.dev"><img src="assets/panel-v2-website.png" width="32%" alt="Website — marshell.dev" /></a>
-  <a href="https://console.marshell.dev"><img src="assets/panel-v2-console.png" width="32%" alt="Console — Hosted dashboard" /></a>
+  <a href="https://www.marshell.dev"><img src="assets/panel-v3-qr.png" width="32%" alt="Scan QR — Visit marshell.dev" /></a>
+  <a href="https://www.marshell.dev"><img src="assets/panel-v3-website.png" width="32%" alt="Website — marshell.dev" /></a>
+  <a href="https://console.marshell.dev"><img src="assets/panel-v3-console.png" width="32%" alt="Console — Hosted dashboard" /></a>
 </p>
 
 ---
