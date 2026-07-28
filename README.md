@@ -22,6 +22,18 @@
   <a href="https://github.com/marshell-labs/marshell/stargazers"><img src="https://img.shields.io/github/stars/marshell-labs/marshell?style=flat&colorA=080f12&colorB=f2cc60" alt="Stars" /></a>
 </p>
 
+<p align="center">
+  <a href="#quick-start"><img src="assets/panels/panel-docker.png" width="32%" alt="Run — Docker" /></a>
+  <a href="https://discord.gg/mAswCyTxKr"><img src="assets/panels/panel-discord.png" width="32%" alt="Community — Discord" /></a>
+  <a href="https://docs.marshell.dev"><img src="assets/panels/panel-docs.png" width="32%" alt="Docs — Documentation" /></a>
+</p>
+
+<p align="center">
+  <a href="https://www.marshell.dev"><img src="assets/panels/panel-qr.png" width="32%" alt="Open — Scan QR Code" /></a>
+  <a href="https://www.marshell.dev"><img src="assets/panels/panel-website.png" width="32%" alt="Open — Website" /></a>
+  <a href="https://console.marshell.dev"><img src="assets/panels/panel-console.png" width="32%" alt="Open — Console" /></a>
+</p>
+
 ---
 
 Agents today are islands. They can call tools and write code, but they cannot cleanly **discover peers**, **send a message**, and **get a receipt**.
