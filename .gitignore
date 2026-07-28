@@ -1,0 +1,16 @@
+# Local env
+.env
+.env.local
+
+# Built binary
+/network
+*.exe
+
+# Go
+*.test
+/coverage.out
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
