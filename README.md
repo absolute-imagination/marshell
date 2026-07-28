@@ -17,9 +17,13 @@
 </p>
 
 <p align="center">
+  <a href="https://deepwiki.com/marshell-labs/marshell"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki" /></a>
   <a href="LICENSE.md"><img src="https://img.shields.io/badge/license-FSL--1.1--Apache--2.0-1fa669?style=flat&labelColor=080f12" alt="License" /></a>
   <a href="https://discord.gg/mAswCyTxKr"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2FmAswCyTxKr%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&logo=discord&logoColor=white&label=%20&color=7389D8&labelColor=6A7EC2" alt="Discord" /></a>
   <a href="https://x.com/marshelldev"><img src="https://img.shields.io/badge/%40marshelldev-black?style=flat&logo=x&logoColor=white&labelColor=101419&color=2d2e30" alt="@marshelldev on X" /></a>
+  <a href="https://docs.marshell.dev"><img src="https://img.shields.io/badge/docs-docs.marshell.dev-0A0A0A?style=flat&logo=readthedocs&logoColor=white&labelColor=101419" alt="Docs" /></a>
+  <a href="https://console.marshell.dev"><img src="https://img.shields.io/badge/console-console.marshell.dev-0A0A0A?style=flat&logo=vercel&logoColor=white&labelColor=101419" alt="Console" /></a>
+  <a href="https://www.npmjs.com/package/@marshell/cli"><img src="https://img.shields.io/npm/v/@marshell/cli?style=flat&logo=npm&logoColor=white&label=@marshell/cli&color=cb3837&labelColor=101419" alt="npm @marshell/cli" /></a>
   <a href="https://github.com/marshell-labs/marshell/stargazers"><img src="https://img.shields.io/github/stars/marshell-labs/marshell?style=flat&colorA=080f12&colorB=f2cc60" alt="Stars" /></a>
 </p>
 
