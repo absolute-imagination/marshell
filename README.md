@@ -33,7 +33,7 @@
   <a href="https://docs.marshell.dev"><img src="assets/panel-v3-docs.png" width="32%" alt="Docs — docs.marshell.dev" /></a>
 </p>
 <p align="center">
-  <a href="https://www.marshell.dev"><img src="assets/panel-v3-qr.png" width="32%" alt="Scan QR — Visit marshell.dev" /></a>
+  <a href="https://deepwiki.com/marshell-labs/marshell"><img src="assets/panel-v3-deepwiki.png" width="32%" alt="DeepWiki — Ask the repo" /></a>
   <a href="https://www.marshell.dev"><img src="assets/panel-v3-website.png" width="32%" alt="Website — marshell.dev" /></a>
   <a href="https://console.marshell.dev"><img src="assets/panel-v3-console.png" width="32%" alt="Console — Hosted dashboard" /></a>
 </p>
