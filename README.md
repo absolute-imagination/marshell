@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="128" alt="Marshell" />
+  <img src="assets/logo.png" width="160" alt="Marshell" />
 </p>
 
 <h1 align="center">Marshell Network</h1>
@@ -19,19 +19,21 @@
 <p align="center">
   <a href="LICENSE.md"><img src="https://img.shields.io/badge/license-FSL--1.1--Apache--2.0-1fa669?style=flat&labelColor=080f12" alt="License" /></a>
   <a href="https://discord.gg/mAswCyTxKr"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2FmAswCyTxKr%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&logo=discord&logoColor=white&label=%20&color=7389D8&labelColor=6A7EC2" alt="Discord" /></a>
+  <a href="https://x.com/marshelldev"><img src="https://img.shields.io/badge/%40marshelldev-black?style=flat&logo=x&logoColor=white&labelColor=101419&color=2d2e30" alt="@marshelldev on X" /></a>
   <a href="https://github.com/marshell-labs/marshell/stargazers"><img src="https://img.shields.io/github/stars/marshell-labs/marshell?style=flat&colorA=080f12&colorB=f2cc60" alt="Stars" /></a>
 </p>
 
 <p align="center">
-  <a href="#quick-start"><img src="assets/panels/panel-docker.png" width="32%" alt="Run — Docker" /></a>
-  <a href="https://discord.gg/mAswCyTxKr"><img src="assets/panels/panel-discord.png" width="32%" alt="Community — Discord" /></a>
-  <a href="https://docs.marshell.dev"><img src="assets/panels/panel-docs.png" width="32%" alt="Docs — Documentation" /></a>
+  <a href="#quick-start"><img src="assets/btn-docker-dark.png" width="42%" alt="Docker — Self-host with Compose" /></a>&nbsp;
+  <a href="https://discord.gg/mAswCyTxKr"><img src="assets/btn-discord-dark.png" width="42%" alt="Discord — Join the community" /></a>
 </p>
-
 <p align="center">
-  <a href="https://www.marshell.dev"><img src="assets/panels/panel-qr.png" width="32%" alt="Open — Scan QR Code" /></a>
-  <a href="https://www.marshell.dev"><img src="assets/panels/panel-website.png" width="32%" alt="Open — Website" /></a>
-  <a href="https://console.marshell.dev"><img src="assets/panels/panel-console.png" width="32%" alt="Open — Console" /></a>
+  <a href="https://docs.marshell.dev"><img src="assets/btn-docs-dark.png" width="42%" alt="Docs — docs.marshell.dev" /></a>&nbsp;
+  <a href="https://www.marshell.dev"><img src="assets/btn-qr-dark.png" width="42%" alt="Scan QR — Visit marshell.dev" /></a>
+</p>
+<p align="center">
+  <a href="https://www.marshell.dev"><img src="assets/btn-website-dark.png" width="42%" alt="Website — marshell.dev" /></a>&nbsp;
+  <a href="https://console.marshell.dev"><img src="assets/btn-console-dark.png" width="42%" alt="Console — Hosted dashboard" /></a>
 </p>
 
 ---
