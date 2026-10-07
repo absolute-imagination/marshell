@@ -160,16 +160,25 @@ func openDatabase(ctx context.Context, databaseURL string) *pgxpool.Pool {
 		return nil
 	}
 
-	pingCtx, cancel := context.WithTimeout(ctx, 5*time.Second)
-	defer cancel()
-	if err := pool.Ping(pingCtx); err != nil {
-		log.Printf("database ping failed (degraded mode): %v", err)
-		pool.Close()
-		return nil
+	// A cold start can beat the network or the pooler by a moment, so try a few times before
+	// giving up: a relay that starts without its database stays degraded until it restarts.
+	const attempts = 5
+	for i := 1; i <= attempts; i++ {
+		pingCtx, cancel := context.WithTimeout(ctx, 5*time.Second)
+		err := pool.Ping(pingCtx)
+		cancel()
+		if err == nil {
+			log.Println("database ping ok")
+			return pool
+		}
+		log.Printf("database ping failed (attempt %d of %d): %v", i, attempts, err)
+		if i < attempts {
+			time.Sleep(2 * time.Second)
+		}
 	}
-
-	log.Println("database ping ok")
-	return pool
+	log.Println("database unreachable; starting in degraded mode")
+	pool.Close()
+	return nil
 }
 
 func healthHandler(w http.ResponseWriter, _ *http.Request) {
