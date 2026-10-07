@@ -45,7 +45,7 @@ func main() {
 		defer pool.Close()
 	}
 
-	hub := newMessageHub(cfg.redisURL)
+	hub := newMessageHub(cfg.redisURL, pool)
 	wsHub := newWSHub()
 	joinRL := newRateLimiter(30, time.Minute)
 	sendRL := newRateLimiter(120, time.Minute)

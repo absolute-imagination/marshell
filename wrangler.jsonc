@@ -1,0 +1,16 @@
+{
+	// The hosted Marshell relay on Cloudflare: a Worker in front of the Go relay container.
+	// DATABASE_URL is a Worker secret (wrangler secret put DATABASE_URL), never committed.
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "marshell-network",
+	"main": "worker/index.js",
+	"compatibility_date": "2026-09-29",
+	"vars": { "PUBLIC_NETWORK_URL": "https://network.marshell.dev" },
+	"routes": [{ "pattern": "network.marshell.dev", "custom_domain": true }],
+	"containers": [
+		{ "class_name": "Relay", "image": "./Dockerfile", "max_instances": 1, "instance_type": "basic" }
+	],
+	"durable_objects": { "bindings": [{ "name": "RELAY", "class_name": "Relay" }] },
+	"exports": { "Relay": { "type": "durable-object", "storage": "sqlite" } },
+	"observability": { "enabled": true }
+}

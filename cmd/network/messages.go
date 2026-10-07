@@ -56,7 +56,7 @@ type messageHub struct {
 	ws             *wsHub
 }
 
-func newMessageHub(redisURL string) *messageHub {
+func newMessageHub(redisURL string, pool *pgxpool.Pool) *messageHub {
 	h := &messageHub{
 		receipts:       newMemoryReceipts(),
 		inFlight:       make(map[string]map[string]wireMessage),
@@ -71,8 +71,13 @@ func newMessageHub(redisURL string) *messageHub {
 			h.backend = rs
 			h.receipts = rs
 		}
+	} else if pool != nil {
+		log.Println("REDIS_URL not set; inbox and receipts stored in Postgres")
+		ps := newPGStore(pool)
+		h.backend = ps
+		h.receipts = ps
 	} else {
-		log.Println("REDIS_URL not set; inbox stored in memory only")
+		log.Println("REDIS_URL and DATABASE_URL not set; inbox stored in memory only")
 		h.backend = newMemoryInbox()
 	}
 	return h
