@@ -18,8 +18,8 @@ CREATE TABLE public.agents (
     status         text NOT NULL DEFAULT 'online',
     last_seen_at   timestamptz,
     agent_card     jsonb,
-    usage_allowed  text,
-    usage_denied   text,
+    usage_allowed  text NOT NULL DEFAULT '',
+    usage_denied   text NOT NULL DEFAULT '',
     created_at     timestamptz NOT NULL DEFAULT now(),
     UNIQUE (subnet_id, name)
 );
