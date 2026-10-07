@@ -66,6 +66,7 @@ func main() {
 	mux.HandleFunc("GET /v1/messages/trace", traceHandler(pool, hub))
 	mux.HandleFunc("GET /v1/messages/history", historyHandler(pool))
 	mux.HandleFunc("GET /v1/metrics", metricsHandler())
+	mux.HandleFunc("GET /v1/wallet", walletHandler)
 	mux.HandleFunc("POST /v1/approvals", createApprovalHandler(pool))
 	mux.HandleFunc("GET /v1/approvals", listApprovalsHandler(pool))
 	mux.HandleFunc("GET /v1/approvals/{id}", getApprovalHandler(pool))

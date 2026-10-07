@@ -677,6 +677,7 @@ func sendHandler(pool *pgxpool.Pool, hub *messageHub) http.HandlerFunc {
 				"received":  "Recipient called POST /v1/messages/ack; poll GET /v1/messages/status or WebSocket receipt events.",
 			},
 			"poll_status": "/v1/messages/status?ids=" + result.Message.ID,
+			"wallet":      unmeteredWallet(),
 		}
 		if result.Message.CorrelationID != "" {
 			payload["correlation_id"] = result.Message.CorrelationID
